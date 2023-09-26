@@ -1,0 +1,17 @@
+/* styles-css */
+
+/* utilizaremos CSS para cambiar el estilo de la lista */
+ul {
+    list-style-type: none; /* esto elimina los puntos de lista predeterminados */
+}
+
+li::before {
+    content: "/2022"; /* usamos el caracter del circulo solido () como contenido antes de cada elemento <1i> */
+    color: violet; /* cambie el color a violeta como en tu solicitud  */
+    font-size: 24px; /* ajusta el tamaño del icono segun tu preferencia */
+    margin-right: 10px; /* espacio entre el icono y el texto del elemento de la lista */
+}
+
+li {
+    font-weight: bold; /* establece el texto de los elementos de lista en negrita */
+}
